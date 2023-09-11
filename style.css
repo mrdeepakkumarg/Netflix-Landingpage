@@ -1,0 +1,345 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.256);
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 65.5rem;
+    margin: 0 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ============ Nav Bar ============= */
+
+.main {
+    height: calc(100vh + 5.5rem);
+    width: 100vw;
+    background: linear-gradient( rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.6) ), url(images/Backgrond.jpg);
+}
+
+.navbar {
+    height: 5.5rem;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 9.5rem;
+    height: 2.75rem;
+    outline: none;
+}
+
+.lang {
+    width: 7.5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    outline: 1px solid rgba(255,255,255,0.7);
+}
+
+.lang select {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    padding: 0.25rem 1.25rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.red-btn {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-style: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.855);
+}
+
+.red-btn:hover {
+    background-color: rgb(199, 19, 19);
+}
+
+.red-btn a {
+    font-weight: 600;
+}
+
+/* ============ Hero section ============= */
+
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-area {
+    min-height: 18.9rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.hero-section h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.hero-section h1 {
+    font-size: 2.9rem;
+    font-weight: 800;
+}
+
+.hs-form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hs-btn {
+    margin-top: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hs-btn input {
+    width: 23.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    background: transparent;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fa-angle-right {
+    font-size: 1.5rem;
+}
+
+/* ============section-1 ============= */
+
+.feature {
+    height: 33.5rem;
+    width: 100vw;
+    margin-top: 0.5rem;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-home {
+    min-height: 24.5;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-home h2 {
+    font-size: 3rem;
+}
+
+.tv-home p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.tv-imgarea {
+    position: relative;
+    justify-content: center;
+    height: 24.2rem;
+    width: 32.3rem;
+}
+
+.tv-imgarea img {
+    height: 24.2rem;
+    width: 32.3rem;
+}
+
+
+/* ============section-2,4 ============= */
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.card {
+    height: 6rem;
+    width: 19.5rem;
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    gap: 1.2rem;
+    bottom: 10%;
+    background-color: black;
+    border-radius: 0.75rem;
+    border: 2px solid rgb(128, 128, 128, 0.7);
+}
+
+.card img {
+    height: 4rem;
+    width: 3.25rem;
+}
+
+.card h4 {
+    font-size: 1rem;
+}
+
+.card p {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: #0071EB;
+}
+
+.download img {
+    height: 3.75rem;
+    width: 3rem;
+}
+
+
+/* ============ CTC ============= */
+
+.faq {
+    width: 100vw;
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.faque {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+
+}
+
+.faque h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.faq-que {
+    margin: 5rem auto;
+    width: 100%;
+}
+
+.faq-que li {
+    list-style: none;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.faq-que label {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+    background-color: #303030;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 3rem;
+    position: absolute;
+    right: 1.25rem;
+    transition: transform 0.2s;
+}
+
+.faq-que input {
+    display: none;
+}
+
+.faq-content {
+    background: #303030;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0 1.25rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.faq-que input:checked + label + .faq-content {
+    max-height: 600px;
+    padding: 2rem 1.25rem;
+}
+
+.faq-que input:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+
+
+/* ============ Footer ============= */
+
+.ctc {
+    height: 28.9;
+    padding: 3.75rem 0;
+    width: 100vw;
+    margin-top: 0.5rem;
+    color: rgba(255,255,255,0.7) !important;
+    background-color: black;
+}
+
+.ctc-area {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.ctc-area a {
+    color: rgba(255,255,255,0.7) !important;
+}
+
+.ctc-textarea {
+    gap: 12rem;
+}
+
+.ctc-text {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    align-items: self-start;
+}
+
+.ctc a {
+    text-decoration: underline;
+}
