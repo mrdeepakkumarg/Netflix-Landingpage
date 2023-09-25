@@ -1,0 +1,187 @@
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 50rem;
+        margin: 0 2rem;
+    }
+    .navbar {
+        height: 4.5rem;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 5.6rem;
+        height: 1.6rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-section h3 {
+        font-size: 1.2rem;
+    }
+    .feature {
+        height: 40rem;
+    }
+    .tv-home {
+        min-height: 30rem;
+        flex-direction: column;
+        text-align: center;
+        margin: 5rem 0;
+    }
+    .tv-home h2 {
+        font-size: 2rem;
+    }
+    .tv-home p {
+        font-size: 1.1rem;
+    }
+    .faque h2 {
+        font-size: 2rem;
+    }
+    .faq-que {
+        margin: 2rem auto;
+    }
+    .faq-que label {
+        font-size: 1.1rem;
+    }
+    label::after {
+        font-size: 1.5rem;
+    }
+    .faq-content {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .container {
+        max-width: 40rem;
+        margin: 0 2rem;
+    }
+    .hero-section-area {
+        gap: 0.8rem;
+    }
+    .ctc-textarea {
+        gap: 7rem;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .container {
+        max-width: 27rem;
+        margin: 0 1.5rem;
+    }
+    .hs-btn input {
+        width: 20rem;
+        padding: 0.75rem;
+    }
+    .feature {
+        height: 35rem;
+    }
+    .tv-imgarea img {
+        height: 20rem;
+        width: 25rem;
+    }
+    .card img {
+        height: 4rem;
+        width: 3.25rem;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 0.4rem 0.75rem;
+    }
+    .ctc-textarea {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .container {
+        max-width: 25rem;
+        margin: 0 1rem;
+    }
+    .hs-btn input {
+        width: 17rem;
+    }
+    .feature {
+        height: 33rem;
+    }
+    .tv-imgarea img {
+        margin-top: 2rem;
+        height: 18rem;
+        width: 22rem;
+    }
+    .card {
+        height: 5rem;
+        width: 18rem;
+        padding: 0rem 0.75rem 1.5rem 0.75rem;
+    }
+    .card img {
+        height: 3.5rem;
+        width: 3rem;
+    }
+    .card h4 {
+        font-size: 0.8rem;
+    }
+    .card p {
+        margin-top: 0.25rem;
+        font-size: 0.8rem;
+        color: #0071EB;
+    }
+    .ctc-textarea {
+        gap: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 19rem;
+        margin: 0 1rem;
+    }
+    .lang {
+        width: 5rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+        margin-right: 0.75rem;
+    }
+    .lang select {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.4rem;
+    }
+    .red-btn {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.75rem;
+    }
+    .hs-btn input {
+        width: 13rem;
+        font-size: 0.8rem;
+    }
+    .feature {
+        height: 36rem;
+    }
+    .tv-imgarea img {
+        margin-top: 2rem;
+        height: 15rem;
+        width: 19rem;
+    }
+    .card {
+        height: 5rem;
+        width: 18rem;
+        padding: 0rem 0.75rem 1.5rem 0.75rem;
+    }
+    .card img {
+        height: 3.5rem;
+        width: 3rem;
+    }
+    .card h4 {
+        font-size: 0.8rem;
+    }
+    .card p {
+        margin-top: 0.25rem;
+        font-size: 0.8rem;
+        color: #0071EB;
+    }
+    .ctc-textarea {
+        gap: 1.8rem;
+    }
+}
